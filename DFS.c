@@ -3,6 +3,11 @@
 #define N 20
 #define BIG 1000
 
+/*
+** Program to do a depth first search
+** Made by - Abhishek Chand
+*/
+
 int vis[N]={0}, pre[N], num=0, comp[N], time=0, st[N], fn[N];
 
 typedef struct NODE
